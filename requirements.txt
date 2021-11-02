@@ -3,3 +3,4 @@ requests
 tensorflow
 opencv-python
 numpy
+pillow
