@@ -1,2 +1,5 @@
 lxml
 requests
+tensorflow
+opencv-python
+numpy
