@@ -2,7 +2,7 @@ name: "Daily Fudan"
 
 on:
   schedule:
-    - cron: "17 1,8 * * *"  # scheduled at 09:17 & 16:17 (UTC+8) everyday
+    - cron: "17 1,8 * * *"  # scheduled at 10:17 & 16:17 (UTC+8) everyday
   workflow_dispatch:
 
 env:
@@ -27,7 +27,7 @@ jobs:
 
       - name: Random sleep
         if: github.event_name == 'schedule'
-        run: sleep $(shuf -i 10-300 -n 1)
+        run: sleep $(shuf -i 10-3000 -n 1)
 
       - name: Run sign
         run: |
