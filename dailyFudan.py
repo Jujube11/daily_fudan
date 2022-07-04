@@ -156,7 +156,9 @@ class Zlapp(Fudan):
         get_info = self.session.get(
                 'https://zlapp.fudan.edu.cn/ncov/wap/fudan/get-info')
         last_info = get_info.json()
-
+      
+        logging.info(f'last_info: {json_dumps(last_info)}')
+                     
         logging.info("上一次提交日期为: %s " % last_info["d"]["info"]["date"])
 
         position = last_info["d"]["info"]['geo_api_info']
