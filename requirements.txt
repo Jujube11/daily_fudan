@@ -5,4 +5,4 @@ opencv-python
 numpy
 pillow
 launchpadlib
-cryptography
+cryptography==36.0.2
