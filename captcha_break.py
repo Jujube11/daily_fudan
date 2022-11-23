@@ -14,7 +14,8 @@ from tensorflow.keras.layers import Conv2D, MaxPooling2D, Dense, Dropout
 from tensorflow.keras.layers import Input, Flatten, BatchNormalization, Lambda
 from tensorflow.keras.layers import GRU, LSTM, Bidirectional
 from tensorflow.keras.layers import Add, Concatenate, Reshape
-from tensorflow.keras.optimizers import Adam, SGD, RMSprop
+from tensorflow.keras.optimizers import Adam, RMSprop
+from tensorflow.keras.optimizers.legacy import SGD
 from tensorflow.keras.callbacks import ModelCheckpoint, Callback, EarlyStopping
 from tensorflow.keras.utils import to_categorical
 
