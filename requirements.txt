@@ -1,8 +1,7 @@
 lxml
 requests
-tensorflow
+tensorflow==2.5
 opencv-python
 numpy
 pillow
 launchpadlib
-cryptography==36.0.2
