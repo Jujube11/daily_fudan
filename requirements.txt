@@ -1,6 +1,6 @@
 lxml
 requests
-tensorflow-cpu==2.5.0
+tensorflow
 opencv-python
 numpy
 pillow
